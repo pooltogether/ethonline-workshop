@@ -4,7 +4,7 @@ In this workshop we're going to:
 
 1. Deploy the entire PoolTogether system locally
 2. Create a new Prize Pool and deposit and withdraw
-3. Create a custom prize strategy and swap it out
+3. Create a custom prize strategy and swap it out the old one for this one
 
 # Setting up PoolTogether Contracts
 
@@ -41,7 +41,7 @@ Find the deployed addresses like so:
 > deployed.RNGServiceMock.address
 ```
 
-## Install the Builder UI
+# Setup the Builder UI
 
 Setup the [Builder UI](https://github.com/pooltogether/pooltogether-pool-builder-ui).
 
@@ -87,7 +87,7 @@ First let's give ourselves some ETH and Dai
 
 Now we can go and create a new pool
 
-## Install the Reference Pool UI
+# Setup the Reference Pool UI
 
 Setup the [Reference Pool UI](https://github.com/pooltogether/pooltogether-reference-pool-ui)
 
@@ -120,7 +120,9 @@ $ yarn dev --port 4000
 Navigate to `localhost:4000` and paste your newly created pool address
 
 
-## Create a custom Prize Strategy
+# Create a custom Prize Strategy
+
+Use the [Custom Prize Strategy](https://github.com/pooltogether/custom-prize-strategy)
 
 Setup the project:
 
