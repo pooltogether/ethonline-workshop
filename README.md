@@ -77,7 +77,8 @@ $ yarn dev
 
 Let's build a pool!
 
-First let's give ourselves some ETH and Dai
+In the original PoolTogether Contract console let's give ourselves some ETH and Dai:
+
 ```js
 > signers = await ethers.getSigners()
 > signers[0].sendTransaction({ to: "your_address", value: ethers.utils.parseEther('10') })
